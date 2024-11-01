@@ -1,5 +1,4 @@
-# Archived, to lazy to maintain this project
-# pengufox
+# pengufox-reborn
 **pengufox is a Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.**
 
 https://github.com/pznguin-kyun/pengufox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b830a40a966
@@ -11,17 +10,17 @@ https://github.com/pznguin-kyun/pengufox/assets/123321507/1c9a01f5-2b23-491d-a58
 - Make Firefox suckless
 
 # Installation
-## 1. Install automatically (Linux only)
+## Install automatically (Linux only)
 ```
-$ git clone https://github.com/pznguin-kyun/pengufox
+$ git clone https://github.com/mslxl/pengufox-reborn pengufox
 $ cd pengufox
 $ ./pengufox-installer.sh
 ```
 
-## 2. Install manually
-- Clone this repository or download the [zip file](https://github.com/pznguin-kyun/pengufox/archive/main.zip)
+## Install manually
+- Clone this repository or download the [zip file](https://github.com/mslxl/pengufox-reborn/archive/main.zip)
 ```
-$ git clone https://github.com/pznguin-kyun/pengufox
+$ git clone https://github.com/mslxl/pengufox-reborn pengufox
 ```
 
 - Extract file (if you download the zip file)
