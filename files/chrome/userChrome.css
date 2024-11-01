@@ -42,6 +42,7 @@
 #urlbar[focused='true'],
 #identity-box[open='true'],
 #titlebar:hover+#nav-bar:not([customizing]),
+#TabsToolbar:hover+#nav-bar:not([customizing]), /* for firefox above 133.0b2 */
 #toolbar-menubar:not([inactive='true'])~#nav-bar:not([customizing]) {
   visibility: visible;
 
