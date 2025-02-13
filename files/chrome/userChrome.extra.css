@@ -8,7 +8,15 @@ pointer-events: none;
 }
 
 #main-window:not([tabsintitlebar="true"]) #TabsToolbar >.toolbar-items {
-visibility: hidden !important;
+visibility: collapse !important;
+}
+
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar > .titlebar-buttonbox-container {
+display: flex;
+width: 100%;
+justify-content: end;
+align-items: center;
+height: 2.7em; /* Default tab lable height */
 }
 
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header,
